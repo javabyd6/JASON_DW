@@ -5,12 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sda</groupId>
-    <artifactId>jason</artifactId>
+    <artifactId>savejson</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>readjson</module>
-        <module>savejson</module>
-    </modules>
 
     <build>
         <plugins>
@@ -28,7 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.sda.jason.Main</mainClass>
+                            <mainClass>com.sda.savejason.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -37,19 +33,6 @@
     </build>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>2.9.8</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.9.8</version>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -57,6 +40,19 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.9.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sda.jason</groupId>
+            <artifactId>JASON_DarekWitkowski</artifactId>
+        </dependency>
     </dependencies>
-
 </project>

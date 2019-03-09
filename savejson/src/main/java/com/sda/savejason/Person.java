@@ -1,4 +1,4 @@
-package com.sda.jason;
+package com.sda.savejason;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

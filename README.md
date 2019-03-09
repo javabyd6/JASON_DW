@@ -1,2 +1,2 @@
 # Projekt JSON
-_**Mapowanie obiektu na JASON**_
+_**Mapowanie obiektu na JSON**_
