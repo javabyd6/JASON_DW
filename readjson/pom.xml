@@ -8,7 +8,7 @@
     <artifactId>readjson</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <build>
+   <!-- <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -64,13 +64,13 @@
         </dependency>
 
 
-    </dependencies>
+    </dependencies>-->
 
 
     <parent>
-        <groupId>com.sda</groupId>
-        <artifactId>jason</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+    <groupId>com.sda</groupId>
+    <artifactId>jason</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</parent>
     
 </project>
